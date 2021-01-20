@@ -1,0 +1,34 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    background-color: var(--prim-med);
+    color: var(--sec-med);
+    border: var(--prim-med) 2px solid;
+
+    &__content{
+        padding: 1rem 2rem;
+        border: var(--sec-med) 2px solid;
+    }
+
+    &__title{
+        font-weight: 700;
+        margin-bottom: 0.3rem;
+        display: inline-flex;
+        width: min-content;
+    }
+
+    &__subtitle{
+        color: var(--ter-hard);
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    &__text{
+        margin: 1rem 0;
+    }
+
+    &__btn{
+        margin: 0.1rem;
+    }
+}

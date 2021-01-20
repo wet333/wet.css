@@ -1,0 +1,65 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--prim-med);
+    padding: 0.2rem;
+
+    &__logo{
+        display: inline-flex;
+        color: var(--sec-med);
+        font-weight: 800;
+        font-size: 300%;
+        flex: 1;
+    }
+
+    &__nav{
+        display: flex;
+        flex-direction: row;
+        flex: 4;
+        justify-content: space-evenly;
+    }
+
+    &__link{
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        color: var(--sec-med);
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        padding: 0.5rem 2rem;
+
+        &:visited{
+            color: var(--sec-med);
+        }
+
+        &:hover{
+            color: var(--ter-med);
+            text-decoration: underline solid currentColor ;
+        }
+    }
+
+    &__menu{
+        display: none;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 600px){
+
+        &__nav{
+            justify-content: flex-end;
+        }
+        
+        &__link{
+            display: none;
+        }
+
+        &__menu{
+            display: flex;
+            height: 100%;
+            margin: 0;
+            align-items: center;
+        }
+    }
+
+}

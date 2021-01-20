@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    height: 15vh;
+    background-color: var(--prim-med);
+    place-content: center;
+
+    &__message{
+        color: var(--sec-med);
+    }
+}

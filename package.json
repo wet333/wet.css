@@ -1,0 +1,27 @@
+{
+  "name": "wet.css",
+  "version": "1.0.0",
+  "description": "A css framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch ./sass:./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wet333/wet.css.git"
+  },
+  "keywords": [
+    "css",
+    "framework"
+  ],
+  "author": "Agustin Wet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wet333/wet.css/issues"
+  },
+  "homepage": "https://github.com/wet333/wet.css#readme",
+  "dependencies": {
+    "sass": "^1.32.0"
+  }
+}

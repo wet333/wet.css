@@ -1,0 +1,44 @@
+
+$col-prim : #242424;
+$col-prim-d : adjust-color($col-prim , $lightness: -5%);
+$col-prim-l : adjust-color($col-prim , $lightness: 5%);
+$col-prim-dd : adjust-color($col-prim , $lightness: -10%);
+$col-prim-ll : adjust-color($col-prim , $lightness: 10%);
+
+$col-sec : #ebebeb;
+$col-sec-d : adjust-color($col-sec , $lightness: -5%);
+$col-sec-l : adjust-color($col-sec , $lightness: 5%);
+$col-sec-dd : adjust-color($col-sec , $lightness: -10%);
+$col-sec-ll : adjust-color($col-sec , $lightness: 10%);
+
+$col-ter : #bba970;
+$col-ter-d : adjust-color($col-ter , $lightness: -10%);
+$col-ter-l : adjust-color($col-ter , $lightness: 10%);
+$col-ter-dd : adjust-color($col-ter , $lightness: -20%);
+$col-ter-ll : adjust-color($col-ter , $lightness: 20%);
+
+$col-font-d : #111111;
+$col-font-l : #f5f5f5;
+
+:root{
+   --prim-xsoft : #{$col-prim-ll};
+   --prim-soft : #{$col-prim-l};
+   --prim-med : #{$col-prim};
+   --prim-hard : #{$col-prim-d};
+   --prim-xhard : #{$col-prim-dd};
+
+   --sec-xsoft : #{$col-sec-ll};
+   --sec-soft : #{$col-sec-l};
+   --sec-med : #{$col-sec};
+   --sec-hard : #{$col-sec-d};
+   --sec-xhard : #{$col-sec-dd};
+
+   --ter-xsoft : #{$col-ter-ll};
+   --ter-soft : #{$col-ter-l};
+   --ter-med : #{$col-ter};
+   --ter-hard : #{$col-ter-d};
+   --ter-xhard : #{$col-ter-dd};
+
+   --font-dark : #{$col-font-d};
+   --font-light : #{$col-font-l};
+}
